@@ -45,7 +45,7 @@ Maintained the website, several internal applications, applications for clients,
 
 ## Build Process
 
-## Customizable Meal Scheduling
+## -Customizable Meal Scheduling-
 Enable users to customize and set meal schedules according to their preferences. This feature empowers team admins to efficiently manage meal timings, ensuring a seamless catering experience for employees.
 
 
@@ -59,7 +59,7 @@ Enable users to customize and set meal schedules according to their preferences.
 
 
 
-## Advanced Team Segmentation
+## -Advanced Team Segmentation-
 Implemented a robust team segmentation feature, allowing administrators to categorize teams into different groups. This functionality enhances the organization's ability to tailor catering solutions based on diverse team requirements.
 
 
@@ -73,7 +73,7 @@ Implemented a robust team segmentation feature, allowing administrators to categ
 
 
 
-## Internal Penetration Testing
+## -Internal Penetration Testing-
 Prioritized security with regular internal penetration testing. This feature involves both black-box and white-box testing methods, ensuring the resilience of the application against potential security threats. As the maintainer, your responsibility includes overseeing and conducting these tests to guarantee a secure catering platform.
 
 
