@@ -1,4 +1,3 @@
-<h1 align="center"> Cater2.me</h1> <br>
 <p align="center">
   <a href="https://gitpoint.co/">
    <img alt="image name" title="title" src="https://cater2.me/wp-content/themes/cater2me/images/footer-cater.png" width="250px" >
