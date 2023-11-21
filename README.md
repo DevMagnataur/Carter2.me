@@ -47,6 +47,8 @@ Maintained the website, several internal applications, applications for clients,
 
 ## Customizable Meal Scheduling
 Description: Enable users to customize and set meal schedules according to their preferences. This feature empowers team admins to efficiently manage meal timings, ensuring a seamless catering experience for employees.
+
+
 **Implementation Highlights:**
 Utilized React and Redux for a dynamic and responsive user interface.
 Implemented a flexible scheduling algorithm to accommodate various preferences.
@@ -57,6 +59,7 @@ Description: Enable users to customize and set meal schedules according to their
 ## Advanced Team Segmentation
 Description: Implement a robust team segmentation feature, allowing administrators to categorize teams into different groups. This functionality enhances the organization's ability to tailor catering solutions based on diverse team requirements.
 
+
 **Implementation Highlights:**
 Leveraged Svelte framework for efficient client-side rendering and smooth user interactions.
 Developed a scalable backend API using Ruby on Rails to handle team segmentation logic.
@@ -66,6 +69,7 @@ Description: Implement a robust team segmentation feature, allowing administrato
 
 ## Internal Penetration Testing
 Description: Prioritize security with regular internal penetration testing. This feature involves both black-box and white-box testing methods, ensuring the resilience of the application against potential security threats. As the maintainer, your responsibility includes overseeing and conducting these tests to guarantee a secure catering platform.
+
 
 **Implementation Highlights:**
 Established a comprehensive testing framework for both black-box and white-box penetration testing.
