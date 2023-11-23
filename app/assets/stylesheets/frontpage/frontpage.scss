@@ -1,0 +1,186 @@
+.front-page {
+
+  .frontpage-content {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 930px;
+    background: image-url("frontpage-min.jpg");
+    background-size: cover;
+    padding: 55px;
+    background-position-y: -164px;
+    background-repeat: no-repeat;
+
+    section {
+      width: 490px;
+      height: 380px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      right: 15%;
+      color: white;
+      text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.94);
+
+      h1 {
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        font-size: 36px;
+        line-height: 135%;
+        font-weight: 600;
+
+      }
+
+      h3 {
+        font-size: 15px;
+        font-weight: 400;
+        text-shadow: 2px 1px 9px rgba(150, 150, 150, 0.94);
+        margin: 10px 0 0 5px;
+      }
+
+      .login-signup {
+        display: flex;
+        margin: 20px 0 0 0;
+        font-family: sans-serif;
+
+        .or {
+          font-size: 15px;
+          padding: 0 15px;
+          color: white;
+          text-shadow: 2px 1px 9px rgba(150, 150, 150, 0.94);
+          display: flex;
+          align-items: center;
+          font-weight: lighter;
+        }
+
+        .guest-login, .signup-button {
+          display: flex;
+          align-items: center;
+          color: #fff;
+          height: 20px;
+          cursor: pointer;
+          transition-duration: .4s;
+          text-transform: uppercase;
+          padding: 10px 20px;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 1.5px;
+          border-radius: 10px;
+          box-shadow: -4px 6px 31px -8px rgba(0,0,0,0.75)
+        }
+
+        .guest-login {
+          background: -webkit-gradient(
+          linear, left top, left bottom,
+          from(#4499db),
+          to(#177ed7));
+          &:hover {
+            background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#3f92c6),
+            to(#0074bc))
+          }
+        }
+
+        .signup-button {
+          background: -webkit-gradient(
+          linear, left top, left bottom,
+          from(#ff9628),
+          to(#ff8714));
+          &:hover {
+            background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#f08a15),
+            to(#e56e06))
+          }
+        }
+      }
+
+      .login {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 180px;
+        align-items: center;
+        margin-right: 25px;
+
+
+        p {
+          font-weight: 600;
+          font-size: 15px;
+          letter-spacing: .5px;
+          margin: 0 8px;
+        }
+
+        .login-button {
+          display: flex;
+          align-items: center;
+          // justify-content: center;
+          color: #fff;
+          height: 14px;
+          cursor: pointer;
+          transition-duration: .4s;
+          text-transform: uppercase;
+          padding: 8px 20px;
+          font-size: 12px;
+          font-weight: 700;
+          letter-spacing: .8px;
+          border-radius: 5px;
+          box-shadow: -4px 6px 31px -8px rgba(0,0,0,0.75);
+
+          background: -webkit-gradient(
+          linear, left top, left bottom,
+          from(#5b5b5b),
+          to(#454545));
+
+          &:hover {
+            background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#4f4f4f),
+            to(#222222))
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background: #f9f7f6;
+    width: 100%;
+
+    // * {
+    //   border: 1px solid black;
+    // }
+
+    .features {
+      display: flex;
+      // width: 800px;
+      margin: 30px 0 40px 0;
+      color: #999;
+
+      &>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 220px;
+        margin: 0 28px;
+
+        .fa {
+          color: #67b1ea;
+          margin-bottom: 25px;
+        }
+
+        h3 {
+          text-transform: uppercase;
+          letter-spacing: .5px;
+          font-weight: 800;
+        }
+
+        p {
+          text-align: center;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

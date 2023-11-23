@@ -1,0 +1,15 @@
+<script type="text/javascript">
+
+  // only for static images. Not things that your users upload
+  window.images = {
+    sampleAvatar: "<%= image_path("default_avatar.png") %>"
+  }
+  <% if logged_in? %>
+    window.currentUser = <%= render(
+      "api/users/user.json.jbuilder",
+      user: current_user
+    ).html_safe %>
+  <% end %>
+</script>
+
+<main id="root"></main>
