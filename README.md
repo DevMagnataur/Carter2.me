@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://gitpoint.co/">
-   <img alt="image name" title="title" src="https://cater2.me/wp-content/themes/cater2me/images/footer-cater.png" width="250px" >
+   <img alt="image name" title="title" src="https://cater2.me/wp-content/themes/cater2me/images/footer-cater.png" width="200px" >
   </a>
 </p>
 
